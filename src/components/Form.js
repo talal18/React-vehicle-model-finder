@@ -6,7 +6,7 @@ class Form extends React.Component {
       <form onSubmit={this.props.getCarInfo}>
         <input type="text" name="model" required placeholder="model ..." />
         <input type="text" name="year" required placeholder="year ..." />
-        <select name="type">
+        <select className="dropbtn" name="type">
           <option value="motorcycle">Motorcycle</option>
           <option value="passenger car">Passenger Car</option>
           <option value="bus">Bus</option>
